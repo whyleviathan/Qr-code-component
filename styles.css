@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+font-family: "Outfit", sans-serif;
+background-color: var(--Light-gray);
+min-height: 100vh;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+.container{
+    max-width: 366px;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* 1em = 16px*/
+.card{
+    background-color: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+    margin: 1em 1em;
+    
+}
+
+h2{
+    color: var(--Dark-blue);
+    padding-bottom: 16px;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+p{
+    color: var(--Grayish-blue);
+    font-weight: 400;
+    font-size: 16px; /*i know that is 15px but it looks better with 16px for me*/
+
+}
