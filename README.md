@@ -34,7 +34,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Solution
 
-- Solution URL: [My solution]()
+- Solution URL: [My solution](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub/qrcode-component-solution-xGgVdxzIpN)
 
 
 ## Author
